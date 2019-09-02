@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ExampleWork from './example-work.js';
-import ShoppingList from './ShoppingList.js';
+import {ShoppingList} from './ShoppingList.js';
 
 const myWork = [
   {

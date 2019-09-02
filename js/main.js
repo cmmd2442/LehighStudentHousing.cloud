@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ExampleWork from './example-work.js';
+import ShoppingList from './ShoppingList.js';
 
 const myWork = [
   {
@@ -36,4 +37,6 @@ const myWork = [
   }
 ];
 
+
+ReactDOM.render(<ShoppingList/>, document.getElementById('ShoppingList'));
 ReactDOM.render(<ExampleWork work={myWork}/>, document.getElementById('example-work'));

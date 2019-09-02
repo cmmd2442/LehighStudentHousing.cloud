@@ -33,6 +33,8 @@ class ExampleWork extends React.Component {
       <span>
         <section className="section section--alignCentered section--description">
 
+
+
           {this.props.work.map( (example, idx) => {
             return (
               <ExampleWorkBubble key={idx} example={example}
@@ -70,6 +72,8 @@ class ExampleWorkBubble extends React.Component {
     )
   }
 }
+
+
 
 export default ExampleWork;
 export { ExampleWorkBubble };

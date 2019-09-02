@@ -34,7 +34,7 @@
     "webpack-cli": "^2.0.13"
   },
   "scripts": {
-    "test": "jest",
+    "test": "jest --env=node",
     "test-watch": "jest --watch",
     "webpack": "webpack",
     "webpack-watch": "webpack --watch"

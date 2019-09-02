@@ -1,12 +1,9 @@
 version: 0.1
 
 phases:
-  pre_build:
-    commands:
-      - npm install
-      
   build:
     commands:
+      - npm install
       - npm run webpack
 artifacts:
   files:
@@ -14,5 +11,4 @@ artifacts:
     - favicon.ico
     - styles/main.css
     - images/*
-    - js/*
     - dist/bundle.js

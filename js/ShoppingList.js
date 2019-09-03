@@ -10,7 +10,7 @@ const divStyle = {
 class ShoppingList extends React.Component {
   render() {
     return (
-      <div className="ShoppingList">
+      <div style = {divStyle} className="ShoppingList">
         {//<h1>Shopping List for {this.props.name}</h1>
         }
         <h1>Shopping List </h1>
@@ -22,7 +22,6 @@ class ShoppingList extends React.Component {
 	<a href="#WhatsApp">Home</a></li>
 	<a href="#Oculus">Home</a></li>
         </ul>
-*/}
          
 	<ul>
           <li>href = Instagram</li>
@@ -30,6 +29,7 @@ class ShoppingList extends React.Component {
           <li>Oculus</li>
         </ul>
 
+*/}
 
       </div>
     );

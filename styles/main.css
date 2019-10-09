@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section__example {
-  border-radius: 100%;
+  /*border-radius: 100%;*/
   cursor: pointer;
   overflow: hidden;
   position: relative;

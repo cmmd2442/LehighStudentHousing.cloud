@@ -1,36 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ExampleWork from './example-work.js';
-import ShoppingList from './ShoppingList.js';
+import ExampleWork from './example-work';
+
+
 
 const myWork = [
   {
-    'title': "Work Example",
+    'title': "302 W 8 st",
     'href': "https://example.com",
-    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    'desc': "302 w. 8 st.",
     'image': {
       'desc': "example screenshot of a project involving code",
-      'src': "images/example1.png",
+      'src': "images/302front.jpg",
       'comment': ""
     }
   },
   {
-    'title': "Portfolio Boilerplate",
+    'title': "418 Selfridge st",
     'href': "https://example.com",
-    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    'desc': "418 Selfridge st.",
     'image': {
       'desc': "A Serverless Portfolio",
-      'src': "images/example2.png",
+      'src': "images/418Front.jpg",
       'comment': ""
     }
   },
   {
-    'title': "Work Example",
+    'title': "417 Montclair",
     'href': "https://example.com",
-    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    'desc': "A Serverless Portfolio",
     'image': {
       'desc': "example screenshot of a project involving cats",
-      'src': "images/example3.png",
+      'src': "images/417Kitchen.jpg",
       'comment': `"Bengal cat" by roberto shabs is licensed under CC BY 2.0
            https://www.flickr.com/photos/37287295@N00/2540855181`
     }
@@ -38,5 +39,15 @@ const myWork = [
 ];
 
 
-ReactDOM.render(<ShoppingList/>, document.getElementById('ShoppingList'));
+
+
+
+
 ReactDOM.render(<ExampleWork work={myWork}/>, document.getElementById('example-work'));
+
+
+console.log('Loaded react-dom');
+console.log ("webpack works");
+
+
+

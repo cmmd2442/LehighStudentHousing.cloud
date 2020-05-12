@@ -115,7 +115,8 @@ h1, h2, h3, h4, h5, h6 {
 .section__exampleWrapper,
 .section__example {
   display: inline-block;
-  height: 35rem;
+  /*height: 35rem;*/
+  height: 10rem;
   width: 35rem;
 }
 
@@ -132,8 +133,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .section__example:active {
   transition: 0.05s all;
+/*
   width: 34rem;
   height: 34rem;
+*/
+  width: 10rem;
+  height: 10rem;
+ 
+
 }
 
 .section__exampleTitle{
@@ -143,11 +150,19 @@ h1, h2, h3, h4, h5, h6 {
   width: 90%;
 }
 
+.section__exampleImage_modal {
+  width: 25%;
+  height: 25%;
+}
+
 .section__exampleImage {
-  opacity: 0.25;
-  width: 250%;
+  opacity: 0.75;
+  /*width: 250%;*/
+  width: 100%;
+  height: 100%;
+/*
   margin-left: -50%;
-  margin-top: -50%;
+  margin-top: -50%;*/
 }
 
 /*

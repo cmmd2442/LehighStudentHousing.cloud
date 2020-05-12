@@ -1,9 +1,12 @@
 import React from 'react';
+import Image from 'react-image-resizer';
 
-class ExampleWorkModal extends React.Component {
+class M417 extends React.Component {
   render() {
     let example = this.props.example;
     let modalClass = this.props.open ? 'modal--open' : 'modal--closed';
+    let h = 300;
+    let w = 410;	
 
     return (
       <div className={"background--skyBlue " + modalClass}>
@@ -13,7 +16,22 @@ class ExampleWorkModal extends React.Component {
         </span>
         <img alt={example.image.desc}
              className="modal__image"
-             src={example.image.src}/>
+             src={example.image.src }
+       	     width={w}
+	     height={h}	
+	/> 
+             <img alt={example.image.desc}
+                  className="modal__image"
+                  src={"images/417Living3.jpg"}
+       	     width={w}
+	     height={h}	
+        />
+             <img alt={example.image.desc}
+                  className="modal__image"
+                  src={"../images/417Living2.jpg"}
+       	     width={w}
+	     height={h}	
+         />
         <div className="color--cloud modal__text">
           <h2 className="modal__title">
             {example.title}
@@ -31,4 +49,4 @@ class ExampleWorkModal extends React.Component {
   }
 }
 
-export default ExampleWorkModal;
+export default M417;

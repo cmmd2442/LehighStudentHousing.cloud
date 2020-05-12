@@ -11,20 +11,31 @@ class ExampleWorkModal extends React.Component {
           onClick={this.props.closeModal}>
           <i className="fa fa-window-close-o"></i>
         </span>
-        <img alt={example.image.desc}
-             className="modal__image"
-             src={example.image.src}/>
+	
+
         <div className="color--cloud modal__text">
           <h2 className="modal__title">
             {example.title}
           </h2>
           <a className="color--skyBlue modal__link"
+             href="http://www.lehighstudenthousing.com">
+             {/*href={example.href}>*/}
+             Click me!
+          </a>
+          <a className="color--skyBlue modal__link"
              href={example.href}>
              Click me!
           </a>
-          <p className="modal__description">
-            {example.desc}
-          </p>
+
+          {/*<p className="modal__description">*/}
+          {/*<p className="section__exampleImage_modal">*/}
+
+  <img className="section__exampleImage_modal"  src={"../images/302front.jpg"}/>
+  <img className="section__exampleImage_modal" src={example.image2.src}/>
+  <img  className="section__exampleImage_modal" src={"images/418Front.jpg"} />
+  <img  className="section__exampleImage_modal" src={example.image3.src} />
+
+          {/*</p>*/}
         </div>
       </div>
     )

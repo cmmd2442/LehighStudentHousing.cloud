@@ -1,6 +1,6 @@
 import React from 'react';
 
-class ExampleWorkModal extends React.Component {
+class Meight extends React.Component {
   render() {
     let example = this.props.example;
     let modalClass = this.props.open ? 'modal--open' : 'modal--closed';
@@ -14,6 +14,18 @@ class ExampleWorkModal extends React.Component {
         <img alt={example.image.desc}
              className="modal__image"
              src={example.image.src}/>
+             <img alt={example.image.desc}
+                  className="modal__image"
+                  src={"../images/8stLivingRoom.jpg"}/>
+             <img alt={example.image.desc}
+                  className="modal__image"
+                  src={"../images/8stKitchen.jpg"}/>
+             <img alt={example.image.desc}
+                  className="modal__image"
+                  src={"../images/8stBedroom.jpg"}/>
+             <img alt={example.image.desc}
+                  className="modal__image"
+                  src={"../images/8stDeck.jpg"}/>
         <div className="color--cloud modal__text">
           <h2 className="modal__title">
             {example.title}
@@ -31,4 +43,4 @@ class ExampleWorkModal extends React.Component {
   }
 }
 
-export default ExampleWorkModal;
+export default Meight;

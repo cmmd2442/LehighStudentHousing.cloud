@@ -131,7 +131,7 @@ class ExampleWorkBubble extends React.Component {
   render() {
 
     let example = this.props.example;
-    let h = 300;
+    let h = 600;
     let w = 900;
 
 {console.log('title is = ')}

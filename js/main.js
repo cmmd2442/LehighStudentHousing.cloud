@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ExampleWork from './example-work';
-
-
+import ExampleWork from './example-work.js';
 
 const myWork = [
   {
-    'title': "302 W 8 st",
+    'title': "Work Example",
     'href': "https://example.com",
-    'desc': "302 w. 8 st.",
+    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     'image': {
       'desc': "example screenshot of a project involving code",
       'src': "images/302front.jpg",
@@ -16,38 +14,26 @@ const myWork = [
     }
   },
   {
-    'title': "418 Selfridge st",
+    'title': "Portfolio Boilerplate",
     'href': "https://example.com",
-    'desc': "418 Selfridge st.",
+    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     'image': {
       'desc': "A Serverless Portfolio",
-      'src': "images/418Front.jpg",
+      'src': "images/302front.jpg",
       'comment': ""
     }
   },
   {
-    'title': "417 Montclair",
+    'title': "Work Example",
     'href': "https://example.com",
-    'desc': "A Serverless Portfolio",
+    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     'image': {
       'desc': "example screenshot of a project involving cats",
-      'src': "images/417Kitchen.jpg",
+      'src': "images/302front.jpg",
       'comment': `"Bengal cat" by roberto shabs is licensed under CC BY 2.0
            https://www.flickr.com/photos/37287295@N00/2540855181`
     }
   }
 ];
 
-
-
-
-
-
 ReactDOM.render(<ExampleWork work={myWork}/>, document.getElementById('example-work'));
-
-
-console.log('Loaded react-dom');
-console.log ("webpack works");
-
-
-

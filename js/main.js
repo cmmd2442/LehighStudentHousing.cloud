@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ExampleWork from './example-work.js';
+import ExampleWork from './example-work';
+
+
 
 const myWork = [
   {
-    'title': "Work Example",
+    'title': "302 W 8 st",
     'href': "https://example.com",
-    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    'desc': "302 w. 8 st.",
     'image': {
       'desc': "example screenshot of a project involving code",
       'src': "images/302front.jpg",
@@ -14,26 +16,69 @@ const myWork = [
     }
   },
   {
-    'title': "Portfolio Boilerplate",
+    'title': "302 W 8 st",
     'href': "https://example.com",
-    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    'desc': "302 w. 8 st.",
     'image': {
-      'desc': "A Serverless Portfolio",
-      'src': "images/302front.jpg",
+      'desc': "example screenshot of a project involving code",
+      'src': "images/8stKitchen.jpg",
       'comment': ""
     }
   },
   {
-    'title': "Work Example",
+    'title': "418 Selfridge st",
     'href': "https://example.com",
-    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    'desc': "418 Selfridge st.",
+    'image': {
+      'desc': "A Serverless Portfolio",
+      'src': "images/418Front.jpg",
+      'comment': ""
+    }
+  },
+  {
+    'title': "418 Selfridge st",
+    'href': "https://example.com",
+    'desc': "418 Selfridge st.",
+    'image': {
+      'desc': "A Serverless Portfolio",
+      'src': "images/418Kitchen.jpg",
+      'comment': ""
+    }
+  },
+  {
+    'title': "417 Montclair",
+    'href': "https://example.com",
+    'desc': "A Serverless Portfolio",
     'image': {
       'desc': "example screenshot of a project involving cats",
-      'src': "images/302front.jpg",
+      'src': "images/417Kitchen.jpg",
       'comment': `"Bengal cat" by roberto shabs is licensed under CC BY 2.0
            https://www.flickr.com/photos/37287295@N00/2540855181`
     }
-  }
+  },
+  {
+    'title': "417 Montclair",
+    'href': "https://example.com",
+    'desc': "A Serverless Portfolio",
+    'image': {
+      'desc': "example screenshot of a project involving cats",
+      'src': "images/417Living3.jpg",
+      'comment': `"Bengal cat" by roberto shabs is licensed under CC BY 2.0
+           https://www.flickr.com/photos/37287295@N00/2540855181`
+    }
+}
 ];
 
+
+
+
+
+
 ReactDOM.render(<ExampleWork work={myWork}/>, document.getElementById('example-work'));
+
+
+console.log('Loaded react-dom');
+console.log ("webpack works");
+
+
+

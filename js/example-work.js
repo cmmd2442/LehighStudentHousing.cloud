@@ -96,8 +96,6 @@ class ExampleWork extends React.Component {
 
 
 
-      <ExampleWorkModal example={this.state.selectedExample}
-        open={this.state.modalOpen} closeModal={this.closeModal}/>
 
       <If condition={this.state.selectedExample.title=="418 Selfridge st"}>
      	<Then>
@@ -131,8 +129,6 @@ class ExampleWorkBubble extends React.Component {
   render() {
 
     let example = this.props.example;
-    let h = 900;
-    let w = 900;
 
 {console.log('title is = ')}
 {console.log(example.title)}
@@ -147,8 +143,6 @@ return (
 
                  className="section__exampleImage"
                  src={example.image.src}
-		height = {h}
-		width = {w}	
 
 		/>
 

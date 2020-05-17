@@ -12,8 +12,11 @@ class M418 extends React.Component {
       <div className={"background--skyBlue " + modalClass}>
         <span className="color--cloud modal__closeButton"
           onClick={this.props.closeModal}>
-          <i className="fa fa-window-close-o"></i>
+          <i className="fa fa-window-close-o fa-4x"></i>
+	 <p>Click to Return</p>
+
         </span>
+
         <img alt={example.image.desc}
              className="modal__image"
              src={example.image.src }

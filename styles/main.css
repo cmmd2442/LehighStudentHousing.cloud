@@ -83,7 +83,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .section {
   font-size: 4.2rem;
-  min-height: 70vh;
+  /*min-height: 70vh;*/
+  min-height: 10vh;
   position: relative;
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -137,8 +138,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 34rem;
   height: 34rem;
 */
-  width: 10rem;
-  height: 10rem;
+  width: 35rem;
+  height: 52rem;
  
 
 }

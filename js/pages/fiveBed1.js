@@ -11,14 +11,7 @@ return (
 		height: '100vh'
 	}}
 	>
-	<h1>Welcome to GeeksforGeeks Team</h1>
-
-
-                 className="section__exampleImage"
-                 src={M418}
-
-
-
+	<h1>Five bedroom Welcome to GeeksforGeeks Team</h1>
 
 	</div>
 );

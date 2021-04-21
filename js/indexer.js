@@ -14,22 +14,46 @@ return (
 		<Bars />
 
 		<NavMenu>
-		<NavLink to='/about' activeStyle>
+		<NavLink to='/about' activeStyle={{
+    fontWeight: "bold",
+    color: "red"
+  }}>
 			About
 		</NavLink>
-		<NavLink to='/events' activeStyle>
+		<NavLink to='/home2' activeStyle={{
+    fontWeight: "bold",
+    color: "red"
+  }}>
+			Home3
+		</NavLink>
+		<NavLink to='/events' activeStyle={{
+    fontWeight: "bold",
+    color: "red"
+  }}>
 			Events
 		</NavLink>
-		<NavLink to='/annual' activeStyle>
+		<NavLink to='/annual' activeStyle={{
+    fontWeight: "bold",
+    color: "red"
+  }}>
 			Annual Report
 		</NavLink>
-		<NavLink to='/team' activeStyle>
-			Teams
+		<NavLink to='/fiveBed1' activeStyle={{
+    fontWeight: "bold",
+    color: "red"
+  }}>
+		5-Bedroom # 1	
 		</NavLink>
-		<NavLink to='/blogs' activeStyle>
+		<NavLink to='/blogs' activeStyle={{
+    fontWeight: "bold",
+    color: "red"
+  }}>
 			Blogs
 		</NavLink>
-		<NavLink to='/sign-up' activeStyle>
+		<NavLink to='/sign-up' activeStyle={{
+    fontWeight: "bold",
+    color: "red"
+  }}>
 			Sign Up
 		</NavLink>
 		{/* Second Nav */}

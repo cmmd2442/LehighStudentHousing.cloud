@@ -41,6 +41,7 @@ color: #808080;
 `;
 
 export const NavMenu = styled.div`
+font-size: 25px;
 display: flex;
 align-items: center;
 margin-right: -24px;

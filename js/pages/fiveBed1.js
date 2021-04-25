@@ -1,5 +1,7 @@
 import React from 'react';
-import M418 from '../M418';
+import ReactDOM from 'react-dom';
+import Front418 from '!!url-loader!./Front418.jpg';
+
 
 const FiveBed1 = () => {
 return (
@@ -12,10 +14,12 @@ return (
 	}}
 	>
 	<h1>Five bedroom Welcome to GeeksforGeeks Team</h1>
-
+	 <img src = {Front418} alt = "test" />
 	</div>
 );
 };
 
+ReactDOM.render(<FiveBed1/>, document.getElementById('example-work'));
 export default FiveBed1;
+
 

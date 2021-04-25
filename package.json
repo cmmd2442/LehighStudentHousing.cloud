@@ -16,6 +16,7 @@
   "dependencies": {
     "chai": "^4.2.0",
     "file-loader": "^3.0.1",
+    "package.json": "^2.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-gesture-gallery": "^1.1.0",
@@ -29,6 +30,7 @@
     "require": "^2.4.20",
     "styled-components": "^5.2.3",
     "typescript": "^3.6.4",
+    "url-loader": "^2.1.0",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5"
   },
@@ -44,7 +46,6 @@
     "jest": "^22.4.3",
     "react-test-renderer": "^16.2.0",
     "style-loader": "^1.0.0",
-    "url-loader": "^7.7.6",
     "webpack": "^4.2.0",
     "webpack-cli": "^2.0.13"
   },

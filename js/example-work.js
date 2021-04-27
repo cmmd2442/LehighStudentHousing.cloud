@@ -15,7 +15,7 @@ import Home2 from './pages/home2';
 import Events from './pages/events';
 import AnnualReport from './pages/annual';
 import FiveBed1 from './pages/fiveBed1';
-import Blogs from './pages/blogs';
+import FiveBed2 from './pages/fiveBed2';
 import SignUp from './pages/signup';
 
 
@@ -27,7 +27,6 @@ NavMenu,
 NavBtn,
 NavBtnLink,
 } from './NavbarElements';
-
 
 
 
@@ -92,7 +91,7 @@ class ExampleWork extends React.Component {
 		<Route path='/events' component={Events} />
 		<Route path='/annual' component={AnnualReport} />
 		<Route path='/fiveBed1' component={FiveBed1} />
-		<Route path='/blogs' component={Blogs} />
+		<Route path='/fiveBed2' component={FiveBed2} />
 		<Route path='/sign-up' component={SignUp} />
 	</Switch>
 	</Router>
@@ -181,7 +180,9 @@ return (
           onClick={ (evt) => this.props.openModal(evt, example) }>
 
           <div className="section__example">
-            <img alt={example.image.desc}
+	{/*	<img src={M417} alt="test" /> */}
+            {/*<img alt={example.image.desc} */}
+            <img alt={example.image.desc} 
 
                  className="section__exampleImage"
                  src={example.image.src}

@@ -44,11 +44,11 @@ return (
   }}>
 		5-Bedroom # 1	
 		</NavLink>
-		<NavLink to='/blogs' activeStyle={{
+		<NavLink to='/fiveBed2' activeStyle={{
     fontWeight: "bold",
     color: "red"
   }}>
-			Blogs
+		5-Bedroom # 2	
 		</NavLink>
 		<NavLink to='/sign-up' activeStyle={{
     fontWeight: "bold",

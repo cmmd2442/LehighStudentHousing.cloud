@@ -13,4 +13,4 @@ artifacts:
     - images/*
     - houses/*
     - js/*
-    - dist/bundle.js
+
